@@ -1,6 +1,6 @@
 package utiles;
 /**
-*Crea la clase Menu. Mételo en el paquete utiles. Implementa al menos los siguientes
+*Crea la clase Menu. MÃ©telo en el paquete utiles. Implementa al menos los siguientes
 *metodos y atributos:
 *<ul>
 *	<li>titulo</li>
@@ -9,7 +9,7 @@ package utiles;
 *	<li>gestionar()</li>
 *	<li>recogerOpcion()</li>
 *</ul>
-*@author Guillermo Boquizo Sánchez
+*@author Guillermo Boquizo SÃ¡nchez
 *@version 1.0
 */
 
@@ -87,7 +87,7 @@ public class Menu {
 	 * @return la cadena que contiene el titulo
 	 * */
 	public String getTitulo() {
-		return titulo+"\n";
+		return titulo + "\n";
 	}
 
 	
@@ -117,8 +117,8 @@ public class Menu {
 	
 	public String mostrar(){
 		String opcion="";
-		for(int i=0;i<opciones.length;i++){
-			opcion += (i+1)+"-: "+ opciones[i] +".\n";
+		for(int i = 0 ;i <opciones.length; i++){
+			opcion += (i+1) + "-: " + opciones[i] +".\n";
 		}
 		return getTitulo()+opcion;
 	}
